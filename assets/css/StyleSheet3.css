@@ -1,0 +1,432 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.08.2015, 11:43:55
+    Author     : mweber
+*/
+
+
+/*html {
+    min-height: 100%;
+    
+}*/
+
+
+div.start{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+div.resist{
+    /*padding: 5px;*/
+    /*float: left;*/
+    width: 25px;
+    height: 25px;
+    background-color: #333333;
+    color: white;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+div.sens{
+    /*padding: 5px;*/
+    /*float: left;*/
+    width: 25px;
+    height: 25px;
+    background-color: #005DAB;
+    color: white;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+div.inter{
+    /*padding: 5px;*/
+    /*float: left;*/
+    width: 25px;
+    height: 25px;
+    background-color: #1a466b;
+    color: white;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+div.resistlgd{
+    /*padding: 5px;*/
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-color: #333333;
+    color: white;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+div.senslgd{
+    /*padding: 5px;*/
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-color: #005DAB;
+    color: white;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+div.interlgd{
+    /*padding: 5px;*/
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-color: #1a466b;
+    color: white;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+
+td.bodycol{
+    text-align: center;
+}
+
+.headcol{
+    text-align: right;
+    position:absolute;
+     width:5em;
+        left:-70px;
+        top:auto;
+        /*border-right: 2px solid black;*/
+        /*border-top-width:10px; only relevant for first row*/
+        /*margin-top:-3px;*/ 
+}
+
+
+.table-responsive {
+ margin-top: 10px;
+}
+
+
+#gene {
+     word-wrap:break-word;
+}
+
+
+
+#query {
+     word-wrap:break-word;
+}
+
+body {
+    background-color: #D7E6F2;  
+    /*min-height: 100%;*/
+} 
+
+.container { 
+    background-color: white; 
+    /*height: 100%;*/
+} 
+            
+.header {
+    background-color: #D7E6F2;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.navbar-header {
+    /*float: left;*/
+   
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {float:none;}
+            
+.navbar .navbar-nav,.navbar .navbar-nav > li {
+    float: none;
+    color: white;
+    font-weight: bold;
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.navbar > .container-fluid {
+    background-color: #005DAB;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color:white;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+     color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #59B1D8 !important;
+    color:white;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #005DAB;
+}
+
+.navbar-default .navbar-nav > li > a:open {
+    background-color: #005DAB;
+    color:white;
+}
+
+
+ul.nav a:hover { 
+    background-color: #59B1D8 !important;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("../Aspergilus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+/*    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);*/
+    /*background:transparent;*/
+}
+
+
+.select_species {
+    padding-left: 25px; 
+    padding-right: 25px; 
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: #98C4C7;
+    padding-right: 25px;
+    margin-bottom: 15px;
+}
+
+#Analyse-seq {
+    padding-left: 25px;    
+    background-color: #d5f4f6;
+    padding-right: 25px; 
+    margin-bottom: 15px;
+}
+
+#Search_by_mutations {
+    padding-left: 25px;    
+    background-color: #bfdbdd;
+    padding-right: 25px; 
+    margin-bottom: 15px;
+}
+.footer {
+    position: relative;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+}
+
+body > .container {
+    padding: 20px 40px 100px;
+}
+
+footer > .container {
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color: gray;
+}
+
+h3.link a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: inherit !important;
+}
+
+h2, h5{
+    color: #005dab;
+}
+
+h3.step {
+    color: #005dab;
+}
+
+p.pad{
+    margin-left: 20px;
+    
+}
+
+p.large {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    /*line-height: 22px;*/
+}
+
+p {   
+    font-size: 15px;
+    /*line-height: 22px;*/
+}
+
+p.aqua{
+    color: #005dab;
+}
+
+
+
+.container .text-muted {
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+a.footerurl{
+    color: white;
+}
+
+
+.tablesmall{
+     width: 30% !important;
+     margin-left: 10px;
+     margin-top: 20px;
+}
+
+/*
+table.tablesmall tr td {
+    background-color:inherit;
+    padding: 5px 0px 5px;
+    font-size: 15px;
+}*/
+
+
+.greybg{
+    background-color: #F9F9F9;
+    padding: 5px;
+    clear: left;
+}
+
+.colored-cell{
+    background-color: #F9F9F9;
+    
+}
+
+h3.resist {
+    
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin: 0px;
+    margin-top: 15px;
+    background-color: #f6f6f6;
+    /*background: linear-gradient(to right, #d5f4f6 ,  #bfdbdd);*/
+}
+
+h4.resist{
+    padding: 10px;
+    /*margin-top: 0px;*/
+    /*background-color: #d5f4f6;*/
+    background: linear-gradient(to right, #d5f4f6 ,  #bfdbdd);
+    
+}
+
+
+
+table.table-striped.poscenter tr th{
+    text-align: center;
+}
+table.table-striped td{
+    text-align: center;
+}
+
+table.table-striped th{
+    text-align: center;
+}
+
+.table-bordered {
+    text-align: center;
+    width: 500px;
+    padding: 5px;
+}
+
+
+
+
+table.smalltable th{
+    text-align: center;
+    font-size: 14px;
+}
+
+table.smalltable td{
+    text-align: center;
+    font-size: 14px;
+}
+
+td{
+    width: 50px;
+    padding: 5px;
+}
+
+td.warn{
+    background-color: #fcf8e3;
+
+}
+
+th{
+    width: 50px;
+    padding: 5px;
+}
+
+.warning{
+    color: red;
+    background-color: #DBDBDB;
+}
+
+
+.msgpane{
+    width: 500px;
+    height: 670px;
+    margin-bottom:25px;
+    padding-bottom: 0px;
+}
